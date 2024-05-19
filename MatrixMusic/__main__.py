@@ -36,24 +36,24 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("MatrixMusic.plugins" + all_module)
-    LOGGER("ميوزك حسام").info("تم تحميل الاضافات ...✓")
+    LOGGER("ميوزك 𝐘 𝐙 𝐍").info("تم تحميل الاضافات ...✓")
     await userbot.start()
     await Zelzaly.start()
     try:
         await Zelzaly.stream_call("https://telegra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("ميوزك حسام").info(
+        LOGGER("ميوزك 𝐘 𝐙 𝐍").info(
             "خطأ .. قم بفتح المكالمة في مجموعة السجل الخاصه بك\n\nجارِ ايقاف بوت الميوزك . . ."
         )
         exit()
     except:
         pass
     await Zelzaly.decorators()
-    LOGGER("ميوزك حسام").info("TmLotus")
+    LOGGER("ميوزك 𝐘 𝐙 𝐍").info("TmLotus")
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("ميوزك حسام").info("جارِ ايقاف بوت الميوزك . . .")
+    LOGGER("ميوزك 𝐘 𝐙 𝐍").info("جارِ ايقاف بوت الميوزك . . .")
 
 
 if __name__ == "__main__":
