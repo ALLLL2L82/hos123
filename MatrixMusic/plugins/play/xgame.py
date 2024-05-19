@@ -6,13 +6,13 @@ from MatrixMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب حسام\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺"
+GAME_MESSAGE = "⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍⌝━⊶★━⩺\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب حسام\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍⌝━⊶★━⩺"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
         InlineKeyboardButton ('𝗚𝗔𝗠𝗘𝗦', callback_data= 'GAME2'),
         ],[
-        InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")              
+        InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍', url =f"https://t.me/F_U_01")              
                  ],[
                 InlineKeyboardButton(
                         "رجوع", callback_data="close"),
@@ -358,14 +358,14 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "⩹━★⊷━𝗛𝗢𝗦𝗦𝗔𝗠 𝗚𝗔𝗠𝗘𝗦 ℡ ‌₎ ✨??⇣✦⌝━⊶★━⩺\n\n★¦مرحبا بك في قسم العاب حسام\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝━⊶★━⩺" 
+               RETURN_GAME = "⩹━★⊷━𝐘 𝐙 𝐍 𝗚𝗔𝗠𝗘𝗦 ℡ ‌₎ ✨??⇣✦⌝━⊶★━⩺\n\n★¦مرحبا بك في قسم العاب حسام\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n⩹━★⊷━⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍⌝━⊶★━⩺" 
 
                RETURN_BUTTON = [
                     [ 
                       InlineKeyboardButton ('★¦العاب 3D', callback_data= 'GAME1'),
                       InlineKeyboardButton ('★¦العاب حسام', callback_data= 'GAME2')
                       ],[
-        InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")              
+        InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍', url =f"https://t.me/F_U_01")              
                  ],[
                 InlineKeyboardButton(
                         "رجوع", callback_data="close"),
@@ -382,7 +382,7 @@ async def callback_query(client, CallbackQuery):
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴⌝⚡️', url =f"https://t.me/UU_GR")
+                      InlineKeyboardButton ('⌞𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍', url =f"https://t.me/F_U_01")
                       ],[
                          InlineKeyboardButton ('رجوع', callback_data= 'GAME')
                     ]
