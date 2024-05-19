@@ -8,7 +8,7 @@ from ..logging import LOGGER
 
 class Zelzaly(Client):
     def __init__(self):
-        LOGGER("ميوزك حسام").info(f"جارِ بدء تشغيل البوت . . .")
+        LOGGER("ميوزك 𝐘 𝐙 𝐍").info(f"جارِ بدء تشغيل البوت . . .")
         super().__init__(
             name="MatrixMusic",
             api_id=config.API_ID,
@@ -48,7 +48,7 @@ class Zelzaly(Client):
                 "» قم برفـع البـوت مشـرفـاً بكافة الصلاحيات في مجموعـة السجـل"
             )
             exit()
-        LOGGER("ميوزك حسام").info(f" تم بدء تشغيل البوت {self.name} ...✓")
+        LOGGER("ميوزك 𝐘 𝐙 𝐍").info(f" تم بدء تشغيل البوت {self.name} ...✓")
 
     async def stop(self):
         await super().stop()
