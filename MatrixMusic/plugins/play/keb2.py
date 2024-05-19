@@ -39,7 +39,7 @@ REPLY_MESSAGE = "**👋︙مـرحـبـا بـك عـزيـزي الـمـطـ�
 
 REPLY_MESSAGE_BUTTONS = [
     [
-        ("✭ W𝒆𝒍𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆 𝒉𝒐𝒔𝒔𝒂𝒎 𝒎𝒖𝒔𝒊𝒄 ✭"),
+        ("✭ W𝒆𝒍𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆 𝐘 𝐙 𝐍 𝒎𝒖𝒔𝒊𝒄 ✭"),
     ],
     [
         ("✭ قسم الاذاعه"),
@@ -90,7 +90,7 @@ def reply_to_HEY(Client, message):
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
+                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/F_U_01"),
             ]
          ]
      )
@@ -100,12 +100,12 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ مطور السورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[THIS DEV MAIN  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ](https://t.me/H_OS_S_AM)""",
+        photo=f"https://t.me/CZCRR",
+        caption=f"""[THIS DEV MAIN  𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍 ](https://t.me/CZCRR)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
+                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/F_U_01"),
             ]
          ]
      )
@@ -118,13 +118,13 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ للتواصل معنآ"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/UU_GR",
+        photo=f"https://t.me/F_U_01",
         caption=f"""[لـطـلـب ســورس مـيـوزك خـاص بــك او مــيـزه في ســورس مـيـوزك لا تـتـردد فـي الـتـواصـل مـعـي مـن خـلال الـزر فـي الأسـفـل ♬♪](https://t.me/UU_GR)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/UU_GR"),
-                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/H_OS_S_AM"),
+                InlineKeyboardButton("𓆩🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/F_U_01"),
+                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/CZCRR"),
             ]
          ]
      )
@@ -133,12 +133,12 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ مطور السورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/H_OS_S_AM",
-        caption=f"""[مطور السورس](https://t.me/H_OS_S_AM)""",
+        photo=f"https://t.me/CZCRR",
+        caption=f"""[مطور السورس](https://t.me/CZCRR)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/H_OS_S_AM"),
+                InlineKeyboardButton("𓆩👨‍💻︙مطور الـسـورس 𓆪", url=f"https://t.me/CZCRR"),
             ]
          ]
      )
@@ -186,7 +186,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/CZCRR"),
                 ],
             ]
         ),
@@ -204,7 +204,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
@@ -223,7 +223,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
@@ -242,7 +242,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "https://t.me/CZCRR", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
@@ -260,7 +260,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
@@ -280,7 +280,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
@@ -298,7 +298,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
@@ -316,25 +316,25 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
     )
 
 
-@app.on_message(filters.regex("༺┉⊶﴿♡   𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ĶËŸBÖÄŖĐ ♡﴾⊷┉༻") & filters.private & SUDOERS)
+@app.on_message(filters.regex("༺┉⊶﴿♡   𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍 ĶËŸBÖÄŖĐ ♡﴾⊷┉༻") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""**نبذه سريعه عن**  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ĶËŸBÖÄŖĐ **: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
+                    f"""**نبذه سريعه عن**  𝑺𝑶𝑼𝑹𝑪𝑬 𝐘 𝐙 𝐍 ĶËŸBÖÄŖĐ **: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/F_U_01"),
                 ],
             ]
         ),
@@ -350,7 +350,7 @@ async def italy(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢  𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴 ⸥", url=f"https://t.me/UU_GR"),
+                        "𝐘 𝐙 𝐍", url=f"https://t.me/F_U_01"),
                ],
             ]
         ),
